@@ -1,6 +1,8 @@
 package Players;
 
-public abstract class Player {
+import Interfaces.IDamage;
+
+public abstract class Player implements IDamage {
     private String name;
     private int healthValue;
 
