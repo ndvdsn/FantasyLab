@@ -35,4 +35,7 @@ public class DwarfTest {
         knight.attack(dwarf);
         assertEquals(55, dwarf.getHealthValue());
     }
+
+
+
 }

@@ -12,7 +12,8 @@ public abstract class Weapon {
     public int getAttackValue() {
         return attackValue;
     }
-    public void attack(IDamage iDamage) {
-        iDamage.takeDamage(this.getAttackValue());
-    }
+
+
+
+
 }
